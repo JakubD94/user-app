@@ -1,0 +1,54 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.user-item {
+	background-color: #f8f8f8;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	overflow: hidden;
+	padding: 0 1rem 0 0;
+	position: relative;
+}
+
+.user-item:hover {
+	background-color: #f0efef;
+	box-shadow: 0 10px 25px 2px rgba(0, 0, 0, 0.15);
+}
+
+.blue-bgd {
+	background-color: #cce4ff;
+}
+
+.blue-bgd:hover {
+	background-color: #cce4ff;
+}
+
+.user-img__wrapper {
+	height: 100%;
+	width: 40%;
+}
+
+.user-img {
+	width: 100%;
+	height: 100%;
+}
+
+.user-info {
+	width: 55%;
+}
+
+.user-name {
+	color: #001d3d;
+	font-size: 1rem;
+	margin-bottom: 0.5rem;
+}
+
+.user-email,
+.user-city {
+	color: #00346b;
+	font-size: 0.75rem;
+}

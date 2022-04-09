@@ -1,0 +1,33 @@
+.search-bar__container {
+	background-color: rgba(255, 255, 255);
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 0.25rem;
+	max-width: 20rem;
+	padding: 0.5rem;
+	border-radius: 10px;
+	margin: 2rem 9% 1rem auto;
+	box-shadow: 0 10px 25px 2px rgba(0, 0, 0, 0.075);
+}
+
+.searech-bar {
+	color: #001d3d;
+	height: 1.5rem;
+	width: 100%;
+	border: none;
+	background-color: transparent;
+}
+
+.searech-bar:focus {
+	outline: none;
+}
+
+.icon {
+	width: 1.5rem;
+	height: 1.5rem;
+}
+
+.icon:hover {
+	cursor: pointer;
+}

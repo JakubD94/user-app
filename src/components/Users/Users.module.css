@@ -1,0 +1,24 @@
+.users {
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 10px 25px 2px rgba(0, 0, 0, 0.2);
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 1rem;
+	margin: 2rem auto;
+	width: 80%;
+	list-style-type: none;
+	padding: 1rem;
+}
+
+.btn__wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 2rem;
+}
+
+.result {
+	text-align: center;
+	margin: auto;
+}
